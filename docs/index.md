@@ -7,7 +7,7 @@ hero:
   text: ""
   tagline: Версия 1.21 и выше 
   image: 
-    src: https://cdn.discordapp.com/attachments/1196506346913271968/1302752934593036380/IMG_20241104_005451.png?ex=672942b7&is=6727f137&hm=bbadc15ef8b3f68a7a9f84ac0ed7e7829dcc6ead17f749b135acbd1de8acd3a6&
+    src: ./public/logo.webp
     alt: z
   actions:
     - theme: brand
