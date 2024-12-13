@@ -23,7 +23,7 @@ hero:
 	  
 
 features:
-  - icon: <img src="https://cdn.discordapp.com/emojis/1275791510134063104.webp?size=40&quality=lossless" alt="Emoji">
+  - icon: <img src="/sm1.webp" alt="Emoji">
     title: Ip - Адрес сервера
     details: ecleepse.space [Только JAVA]
   - icon: <img src="https://cdn.discordapp.com/emojis/1275790657922793483.webp?size=40&quality=lossless" alt="Emoji">
