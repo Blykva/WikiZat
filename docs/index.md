@@ -26,13 +26,13 @@ features:
   - icon: <img src="/sm1.webp" alt="Emoji">
     title: Ip - Адрес сервера
     details: ecleepse.space [Только JAVA]
-  - icon: <img src="https://cdn.discordapp.com/emojis/1275790657922793483.webp?size=40&quality=lossless" alt="Emoji">
+  - icon: <img src="/sm2.webp" alt="Emoji">
     title: Тематика проекта
     details: Anti-Vanilla
-  - icon: <img src="https://cdn.discordapp.com/emojis/1275790509775781982.webp?size=40&quality=lossless" alt="Emoji">
+  - icon: <img src="sm3.webp" alt="Emoji">
     title: Немного о проекте
     details: Сервер открылся 07.07.2024
-  - icon: <img src="https://cdn.discordapp.com/emojis/1275790473230942311.webp?size=40&quality=lossless" alt="Emoji">
+  - icon: <img src="sm4.webp" alt="Emoji">
     title: Тут пока что нечего нет
     details: 
 
