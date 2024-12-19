@@ -23,7 +23,7 @@ hero:
 	  
 
 features:
-  - icon: <img src="/sm1.webp" alt="Emoji">
+  - icon: <img src="sm1.webp" alt="Emoji">
     title: Ip - Адрес сервера
     details: ecleepse.space [Только JAVA]
   - icon: <img src="/sm2.webp" alt="Emoji">
