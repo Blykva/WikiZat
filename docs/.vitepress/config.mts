@@ -25,7 +25,8 @@ export default defineConfig({
         items: [
           { text: '🧢・Косметика', link: '/cosmet' },
 		  { text: '🤹‍♂️・Скиллы', link: '/skills' },
-          { text: '🗽・Рассы', link: '/rass' }
+          { text: '🗽・Рассы', link: '/rass' 
+		  { text: '📦・Лобби', link: '/lobby'}
         ]
       },
 	  {
