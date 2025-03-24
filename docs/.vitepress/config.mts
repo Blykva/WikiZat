@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "База знаний",
-  description: "Википедия сервера Затмение",
+  description: "Википедия проекта Затмение",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -35,6 +35,7 @@ export default defineConfig({
           { text: '✨・Спонсорство', link: '/prem' },
 		  { text: '📸・Модераторство', link: '/examples' },
           { text: '🔮・Работа сервера', link: '/api-examples' }
+		  { text: '🌍・Прочее', link: '/prochee' }
         ]
       }
     ],
