@@ -5,6 +5,6 @@
 ## Как запустить
 `npm install`
 
-`npm run docs:dev`
-`npm run docs:build`
-`npm run docs:preview`
+`npm run docs:dev`  
+`npm run docs:build`  
+`npm run docs:preview`  
