@@ -3,38 +3,41 @@
 layout: home
 
 hero:
-  name: "Проект - Затмение"
+  name: "Затмение – меняем жанр игры"
   text: ""
   tagline: Версия 1.21 и выше 
   image: 
-    src: /logotip.webp
+    src: /logo.webp
     alt: z
   actions:
     - theme: brand
-      text: Начало-игры
-      link: /markdown-examples
+      text: Начало игры
+      link: /start-guide
     - theme: alt
-      text: Ютуб
-      link: /api-examples
+      text: Игровой процесс
+      link: /features
+    - theme: alt
+      text: Телеграм
+      link: https://t.me/zanashih_mnenie
     - theme: alt
       text: Дискорд
-      link: https://discord.gg/neK2DUH9
+      link: https://discord.gg/hfS68yArwQ
 
 	  
 
 features:
-  - icon: <img src="sm1.webp" alt="Emoji">
-    title: Ip - Адрес сервера
-    details: ecleepse.space [Только JAVA]
-  - icon: <img src="/sm2.webp" alt="Emoji">
+  - icon: <img src="./emojis/main/sm1.webp" alt="Emoji">
+    title: IP адрес сервера
+    details: zatmenie.space
+  - icon: <img src="./emojis/main/sm2.webp" alt="Emoji">
     title: Тематика проекта
-    details: Anti-Vanilla
-  - icon: <img src="sm3.webp" alt="Emoji">
-    title: Немного о проекте
-    details: Сервер открылся 07.07.2024
-  - icon: <img src="sm4.webp" alt="Emoji">
-    title: Тут пока что нечего нет
-    details: 
+    details: Anti-Vanilla, исследуйте и открывайте
+  - icon: <img src="./emojis/main/sm3.webp" alt="Emoji">
+    title: Немного о нас
+    details: Открылись 07.07.2024 и не планируем останавливаться
+  - icon: <img src="./emojis/main/sm4.webp" alt="Emoji">
+    title: Не просто ванилла
+    details: Свои механики и море оригинального контента
 
 
 ---

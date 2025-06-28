@@ -7,37 +7,55 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Дом', link: '/' },
-      { text: 'Прочее', link: '/markdown-examples' }
+      { text: 'Кратко', link: '/' },
+      { text: 'Как играть', link: '/start-guide' },
+      { text: 'Особенности', link: '/features/' }
     ],
 
     sidebar: [
       {
         text: 'О проекте',
         items: [
-          { text: '📮・Как начать играть?', link: '/markdown-examples' },
-		  { text: '', link: '/examples' },
+          { text: '📮・Как начать играть?', link: '/start-guide' },
+          { text: '📜・Что уникального?', link: '/features/' },
           { text: '📝・Правила', link: '/rules' }
         ]
       },
-	  {
+      {
         text: 'Фишки',
         items: [
-          { text: '🧢・Косметика', link: '/cosmet' },
-		  { text: '🤹‍♂️・Скиллы', link: '/skills' },
-          { text: '🗽・Расы', link: '/rass' },
-		  { text: '📦・Лобби', link: '/lobby'}
+          { text: '🧢・Косметика', link: '/features/cosmetic' },
+          { text: '⛏️・Ресурсы и изделия', link: '/features/minerals' },
+          { text: '🤹‍♂️・Скиллы', link: '/features/skills' },
+          { text: '🗽・Расы', link: '/features/lineages' },
+          { text: '📦・Лобби', link: '/features/lobby' }
         ]
       },
-	  {
+      {
         text: 'Прочее',
         items: [
-          { text: '✨・Спонсорство', link: '/prem' },
-		  { text: '📸・Модераторство', link: '/examples' },
-          { text: '🔮・Работа сервера', link: '/api-examples' }
-		  { text: '🌍・Прочее', link: '/prochee' }
+          { text: '✨・Спонсорство', link: '/advanced/sponsorship' },
+          { text: '🗳️・Стать модератором', link: '/advanced/mod-team' },
+          //{ text: '🔮・Работа сервера', link: '/advanced/server-status' } ? - что это должно быть быть
         ]
       }
     ],
+
+    //ПЕРЕВОД
+    outlineTitle: 'Заголовки страницы:',
+
+    docFooter: {
+      prev: 'Предыдущая страница',
+      next: 'Следующая страница'
+    },
+  },
+  markdown: {
+    container: {
+      tipLabel: 'Подсказка',
+      warningLabel: 'Важно',
+      dangerLabel: 'Внимание',
+      infoLabel: 'Справка',
+      detailsLabel: 'Подробно'
+    }
   }
 })
