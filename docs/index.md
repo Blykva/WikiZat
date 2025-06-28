@@ -7,7 +7,7 @@ hero:
   text: ""
   tagline: Версия 1.21 и выше 
   image: 
-    src: /logo.webp
+    src: /logo3.png
     alt: z
   actions:
     - theme: brand

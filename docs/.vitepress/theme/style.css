@@ -46,7 +46,7 @@
  :root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
-  --vp-c-default-3: #ebc034;
+  --vp-c-default-3: rgb(52, 52, 52);/* ffcb62 */
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
   --vp-c-brand-1: #ebc034;
@@ -68,6 +68,7 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+  --vp-button-alt-text: #e2e2e2;
 }
 
 /**
@@ -94,13 +95,13 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #ebc034 50%,
+    #7f16db 50%,
     #e6760e
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     -50deg,
-    #ffc800 50%,
+    #7f16db 50%,
     #ff6a00 50%
   );
   --vp-home-hero-image-filter: blur(200px);
@@ -138,3 +139,18 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/**
+ * Custom CSS
+ * -------------------------------------------------------------------------- */
+
+.dark {
+  --vp-c-text-1: #d1d1d1;
+}
+
+.VPButton.brand {
+  background: -webkit-linear-gradient(
+    120deg,
+    #7f16db 50%,
+    #e6760e
+  );
+}

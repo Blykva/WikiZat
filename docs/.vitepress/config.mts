@@ -24,7 +24,6 @@ export default defineConfig({
       {
         text: 'Фишки',
         items: [
-          { text: '🧢・Косметика', link: '/features/cosmetic' },
           { text: '⛏️・Ресурсы и изделия', link: '/features/minerals' },
           { text: '🤹‍♂️・Скиллы', link: '/features/skills' },
           { text: '🗽・Расы', link: '/features/lineages' },
